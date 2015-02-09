@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'SocialIconsProSet1Rounded';
+    src: url('fonts/SocialIconsProSet1Rounded.eot');
+    src: url('fonts/SocialIconsProSet1Rounded.eot') format('embedded-opentype'),
+         url('fonts/SocialIconsProSet1Rounded.woff2') format('woff2'),
+         url('fonts/SocialIconsProSet1Rounded.woff') format('woff'),
+         url('fonts/SocialIconsProSet1Rounded.ttf') format('truetype'),
+         url('fonts/SocialIconsProSet1Rounded.svg#SocialIconsProSet1Rounded') format('svg');
+}

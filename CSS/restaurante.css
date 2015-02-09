@@ -1,0 +1,1382 @@
+@font-face {
+    font-family: 'alex_brushregular';
+    src: url('../Fuentes/Alex_Brush/alexbrush-regular-webfont.eot');
+    src: url('../Fuentes/Alex_Brush/alexbrush-regular-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('../Fuentes/Alex_Brush/alexbrush-regular-webfont.woff2') format('woff2'), 
+        url('../Fuentes/Alex_Brush/alexbrush-regular-webfont.woff') format('woff'), 
+        url('../Fuentes/Alex_Brush/alexbrush-regular-webfont.ttf') format('truetype'), 
+        url('../Fuentes/Alex_Brush/alexbrush-regular-webfont.svg#alex_brushregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'alluraregular';
+    src: url('../Fuentes/Allura/allura-regular-webfont.eot');
+    src: url('../Fuentes/Allura/allura-regular-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('../Fuentes/Allura/allura-regular-webfont.woff2') format('woff2'), 
+        url('../Fuentes/Allura/allura-regular-webfont.woff') format('woff'),
+        url('../Fuentes/Allura/allura-regular-webfont.ttf') format('truetype'),
+        url('../Fuentes/Allura/allura-regular-webfont.svg#alluraregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'amatic_scregular';
+    src: url('../Fuentes/Amatic_SC opciones/amaticsc-regular-webfont.eot');
+    src: url('../Fuentes/Amatic_SC opciones/amaticsc-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../Fuentes/Amatic_SC opciones/amaticsc-regular-webfont.woff2') format('woff2'), url('../Fuentes/Amatic_SC opciones/amaticsc-regular-webfont.woff') format('woff'), url('../Fuentes/Amatic_SC opciones/amaticsc-regular-webfont.ttf') format('truetype'), url('../Fuentes/Amatic_SC opciones/amaticsc-regular-webfont.svg#amatic_scregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+
+{
+    font-family: 'amatic_scbold';
+    src: url('../Fuentes/Amatic_SC opciones/amaticsc-bold-webfont.eot');
+    src: url('../Fuentes/Amatic_SC opciones/amaticsc-bold-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('../Fuentes/Amatic_SC opciones/amaticsc-bold-webfont.woff2') format('woff2'), 
+        url('../Fuentes/Amatic_SC opciones/amaticsc-bold-webfont.woff') format('woff'), 
+        url('../Fuentes/Amatic_SC opciones/amaticsc-bold-webfont.ttf') format('truetype'),
+        url('../Fuentes/Amatic_SC opciones/amaticsc-bold-webfont.svg#amatic_scbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SocialIcons';
+    src: url('../Fuentes/Iconos Sociales/SocialIconsProSet1Rounded.eot');
+    src: url('../Fuentes/Iconos Sociales/SocialIconsProSet1Rounded.eot') format('embedded-opentype'), 
+        url('../Fuentes/Iconos Sociales/SocialIconsProSet1Rounded.woff2') format('woff2'), 
+        url('../Fuentes/Iconos Sociales/SocialIconsProSet1Rounded.woff') format('woff'), 
+        url('../Fuentes/Iconos Sociales/SocialIconsProSet1Rounded.ttf') format('truetype'), 
+        url('../Fuentes/Iconos Sociales/SocialIconsProSet1Rounded.svg#SocialIconsProSet1Rounded') format('svg');
+}
+@font-face {
+    font-family: 'RalewayRegular';
+    src: url('../Fuentes/Raleway/RalewayRegular.eot');
+    src: url('../Fuentes/Raleway/RalewayRegular.eot') format('embedded-opentype'), 
+        url('../Fuentes/Raleway/RalewayRegular.woff2') format('woff2'), 
+        url('../Fuentes/Raleway/RalewayRegular.woff') format('woff'),
+        url('../Fuentes/Raleway/RalewayRegular.ttf') format('truetype'), 
+        url('../Fuentes/Raleway/RalewayRegular.svg#RalewayRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'cac_pinafo';
+    src: url('../Fuentes/cac_pinafore/cacpinaf-webfont.eot');
+    src: url('../Fuentes/cac_pinafore/cacpinaf-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fuentes/cac_pinafore/cacpinaf-webfont.woff2') format('woff2'),
+         url('../Fuentes/cac_pinafore/cacpinaf-webfont.woff') format('woff'),
+         url('../Fuentes/cac_pinafore/cacpinaf-webfont.ttf') format('truetype'),
+         url('../Fuentes/cac_pinafore/cacpinaf-webfont.svg#cac_pinaforeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/*----------------------------------------------1920X1080--------------------------------------------------------*/
+
+/*----------------------------------------------Contenedor--------------------------------------------------------*/
+
+#contenedor 
+{
+    width: 100%;
+    min-width: 320px;
+    background-color: black;
+}
+
+/*-----------------------------------------------Index------------------------------------------------------------*/
+
+#inicio 
+{       
+    height: 950px;   
+    background-image: url(../Imagenes/Inicio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#menu
+{   
+    width: 29.17%;   /*560px/1920px*/
+    min-width: 300px;
+    height: 100%;
+    -webkit-display: flex;
+    display: flex;
+    -webkit-flex-flow: column;
+    flex-flow: column;
+    background-color: rgba(0,0,0,0.5);
+    margin-left: 11%; /*211px/1920px*/
+}
+
+#logo, #localizanoslogo
+{
+    width: 70%;
+    min-width: 300px;
+    height: 400px;
+    margin: auto;
+    margin-top: 0px;
+    background-image: url(../Imagenes/Logo.png);    
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+#menu ul
+{    
+    display: block;
+    margin-left: 16.96%;  /*95px/560px*/  
+    margin-bottom: 200px; 
+}
+
+#menu li a
+{
+    width: 20%;
+    display: block;
+    color: white;
+    text-shadow: 5px 5px 5px black; 
+    text-decoration: none;
+    font-family:amatic_scregular;
+    font-size: 3.5em;    /*56px/16px*/
+    line-height: 1.75em; 
+}
+
+#menu ul li:hover a
+{    
+    display: block;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: animacion;
+    animation-name: animacion;
+    font-family: amatic_scbold;
+}
+
+@-webkit-keyframes animacion 
+{
+  0% {
+        opacity: 0;
+       -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+     }
+
+  100% 
+    {
+       opacity: 1;
+       -webkit-transform: none;
+       transform: none;      
+     }
+}
+
+@keyframes animacion 
+{
+  0% 
+    {
+       opacity: 0;
+       -webkit-transform: translate3d(0, -100%, 0);
+       transform: translate3d(0, -100%, 0);
+     }
+
+  100% 
+    {
+      opacity: 1;
+      -webkit-transform: none;
+      transform: none;
+    }
+}
+
+#contenido
+{
+    width: 100%;
+    -webkit-display: inline-flex;
+    display: inline-flex;
+    -webkit-flex-wrap:  wrap;
+    flex-wrap:  wrap;
+    -webkit-align-items: flex-start;
+    align-items: flex-start;
+}
+
+#bandaBlancaPlato, #bandaBlancaChef, .cartaBandaBlanca
+{   
+    width: 29.17%;   /*560px/1920px*/
+    min-width: 300px;
+    height: 960px;
+    background-color: #dce2e2;   
+    margin-left: 11%; /*220px/1920px*/
+}
+
+#bandaBlancaChef
+{   
+    height: 786px;
+    margin-top: 100px;
+}
+
+#fotoPlato
+{    
+    width: 100%;
+    height: 926px;
+    margin-top: 150px;
+    background-image: url(../Imagenes/BandaBlancaPlato.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}  
+
+#descripcionChef
+{
+    font-family:  RalewayRegular; 
+    text-shadow: 0.5px 0.5px 0.5px  black ;
+    margin-top: 250px;
+}
+
+#descripcionChef h1
+{
+   text-align: center;
+   font-size: 1.5em; /*24px/16px*/
+   padding-bottom: 50px;
+}
+
+#descripcionChef p
+{
+   text-align: justify;
+   font-size: 1em;     /*16px/16px*/
+   padding-bottom: 20px;
+   padding-left: 15%;     /*84px/560px*/
+   padding-right: 15%;    /*84px/560px*/
+}
+
+#historia, #nuestraChef
+{    
+    width: 53%; 
+}
+
+.titulo
+{      
+    font-family: amatic_scregular;
+    font-size:  3.5em;   /*56px/16px*/
+    color: white;    
+    text-align: center;
+    padding-top: 100px;
+}
+
+#historiaTexto
+{
+    height: 600px;
+    margin-top: 100px;
+    padding-left: 9.95%;     /*100px/1005px*/
+    padding-right: 4.97%;     /*50px/1005px*/ 
+    padding-bottom: 50px;    
+}
+
+#historiaTexto p
+{    
+    font-family: RalewayRegular;
+    font-size: 1em; /*16px/16px*/
+    color: white;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+#lineaHistoria , #lineaChef, #lineaFooter
+{
+    width: 90%;
+    height: 5px;
+    min-width: 320px;
+    margin: auto;      
+    background-color: rgba(255,0,0,0.5);     
+}
+
+#lineaHistoria
+{
+    position: relative;
+    bottom: 1680px;
+}
+
+#lineaChef
+{
+    position: relative;
+    bottom: 730px; 
+}
+
+#lineaFooter
+{
+    margin-top: 20px;
+}
+
+#fotoChef
+{    
+    height: 660px;
+    background-image: url(../Imagenes/Chef.png);    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 70px
+}
+
+
+/*---------------------------------------------------------------Localizanos---------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Header------------------------------------------------------------*/
+
+header
+{
+    height: 950px;
+    background-image: url(../Imagenes/header.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+
+#headerBandaNegra
+{
+    width: 29.17%;   /*560px/1920px*/
+    min-width: 300px;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    position: relative;
+    bottom: 101px;
+    left: 11%;    /*211px/1920px*/  
+    -webkit-display: inline-flex;
+    display: inline-flex;
+    -webkit-flex-wrap:  wrap;
+    flex-wrap:  wrap;
+}
+
+#localizanoslogo
+{
+    width: 60%;
+    height: 240px;
+    position: relative;
+    top: 5px;
+    z-index: 2;
+    background-position: center;    
+}
+
+.bandaNegraFrase
+{
+    font-family: alluraregular;
+    line-height: 1.5em;
+    font-size: 2em;
+    color: white;
+    margin-left: 15%;    /*84px/560px*/
+    margin-right: 15%;    /*84px/560px*/
+}
+
+nav
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255,0,0,0.5);
+    position: relative;
+    top: 73px;
+    z-index: 1;    
+    -webkit-display: inline-flex;
+    display: inline-flex;
+   -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+}
+
+.menuDerecha
+{
+    width: 49%;    
+    height: 100%;
+    margin-right: 11%;    /*211px/1920px*/  
+    -webkit-display: inline-flex;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+   -webkit-justify-content: space-around;
+    justify-content: space-around;  
+}
+
+.menu a
+{   
+    display: block;
+    font-family: amatic_scregular;
+    font-size: 3.125em;     /*50px/16px*/
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px black;    
+}
+
+.menu:hover a 
+{    
+    display: block;
+     -webkit-animation-duration: 1s;
+     animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+     animation-fill-mode: both;
+    -webkit-animation-name: animacion;
+    animation-name: animacion;
+    font-family: amatic_scbold;
+}
+
+#tarjetaVisita
+{
+    width: 29.17%;   /*560px/1920px*/
+    min-width: 300px;
+    height: 300px;
+    margin-left:  11%;    /*211px/1920px*/ 
+    background-color: rgba(188,15,15,0.6); 
+    text-shadow: 2px 2px 2px black;  
+}
+
+#logoTarjeta
+{
+    height: 120px;
+    margin-left: 3%;
+    background-image: url(../Imagenes/tarjetaVisita.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: right;
+}
+
+#telefono, #email
+{ 
+    width: 100%;
+    margin-top: 20px;
+    font-family: RalewayRegular;
+    font-size: 0.625em; /*10px/16px*/
+    -webkit-display: inline-flex;
+    display: inline-flex;
+    -webkit-flex-wrap:  wrap;
+    flex-wrap:  wrap;    
+}
+
+#logoTelefono, #logoEmail
+{
+    width: 29px;
+    height: 44px;
+    margin-left: 10.71%;    /*60px/560px*/
+    margin-right: 12.5%;    /*70px/560px*/
+    background-image: url(../Imagenes/telefono.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: right;
+}
+
+#logoEmail
+{
+    width: 45px;
+    height: 45px;
+    margin-right: 9.82%;    /*55px/560px*/
+    background-image: url(../Imagenes/correo.png);
+}
+
+#numeroTelefono, #correo
+{    
+    font-size: 2em;
+    color: white;
+    -webkit-display: inline-flex;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+#localizanos
+{
+    position:relative;
+    bottom: 145px;  
+}
+
+#localizanos h1
+{
+    width: 55%;   
+    margin-left: 40.35%;    /*774px/1920px*/   
+}
+
+#mapa iframe
+{
+    margin-left: 5%;
+    margin-top: 50px;
+    width: 90%;
+    height: 580px;  
+}
+
+
+/*---------------------------------------------------------------Carta---------------------------------------------------------------------------------*/
+
+#carta
+{
+    width: 100%;
+    -webkit-display: inline-flex;
+    display: inline-flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap:  wrap;
+}
+
+.cartaBandaBlanca
+{
+    min-width: 320px;
+    height: 600px;
+    font-family:  RalewayRegular;     
+}
+
+.cartaDerecha
+{
+    width: 50%;
+    min-width: 320px;
+}
+
+.datosCrepe
+{
+    margin-top: 250px;
+}
+
+.cartaBandaBlanca h1
+{
+   text-align: center;
+   font-size: 2em; /*32px/16px*/
+   padding-bottom: 60px;
+   text-shadow: 1.5px 1.5px 1.5px  black;
+}
+
+.cartaBandaBlanca p
+{
+   text-align: justify;
+   font-size: 1em;     /*16px/16px*/
+   padding-bottom: 50px;
+   padding-left: 15%;     /*50px/560px*/
+   padding-right: 15%;    /*50px/560px*/
+   text-shadow: 0.5px 0.5px 0.5px  black;
+}
+
+.cartaBandaBlanca p.cita
+{
+    margin-top: 30px;
+    font-family: cac_pinafo;
+    font-size: 1.75em;
+    text-align: center;
+    padding-left: 5%;     /*50px/560px*/
+    padding-right: 5%;    /*50px/560px*/    
+}
+
+.plato
+{
+    width: 100%;
+    height: 400px; 
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+
+#plato1
+{    
+     background-image: url(../Imagenes/carne1.png);  
+}
+
+#plato2
+{    
+     background-image: url(../Imagenes/carne2.png); 
+     margin-top: 40px;
+}
+
+#plato3
+{    
+     background-image: url(../Imagenes/mar1.png);
+}
+
+#plato4
+{    
+     background-image: url(../Imagenes/mar2.png);      
+     margin-top: 40px;
+}
+
+#plato5
+{    
+     background-image: url(../Imagenes/dulce1.png);  
+}
+
+#plato6
+{    
+    background-image: url(../Imagenes/dulce2.png);  
+    margin-top: 40px;
+}
+
+#bandaCrepe2
+{
+    height: 440px;
+}
+
+#bandaCrepe4
+{
+    height: 440px;
+}
+
+#bandaCrepe6
+{
+    height: 440px;
+}
+
+#datosCrepe2
+{
+    margin-top: 120px;
+}
+
+#datosCrepe3
+{
+    margin-top: 250px;
+}
+
+#datosCrepe4
+{
+    margin-top: 110px;
+}
+
+#datosCrepe6
+{
+    margin-top: 120px;
+}
+#datosCrepe7
+{
+    margin-top: 40px;
+}
+
+#lineaCarne, #lineaMar, #lineaDulce
+{
+    width: 90%;
+    min-width: 320px;
+    height: 5px;
+    margin: auto;      
+    background-color: rgba(255,0,0,0.5);   
+}
+
+#lineaCarne
+{
+    position: relative;
+    bottom: 2950px;
+}
+
+#lineaMar
+{
+    position: relative;
+    bottom: 1915px;
+}
+
+#lineaDulce
+{
+    position: relative;
+    bottom: 880px;
+}
+
+#paginacion
+{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 170%;
+    color: #EDE9DF;
+    letter-spacing: 10px;
+    padding-bottom: 30px;
+    
+}
+
+#paginacion a
+{
+    color: #EDE9DF;
+    text-decoration: none;
+}
+
+#precio
+{    
+    padding-left: 45%;
+}
+
+/*-----------------------------------------------Footer------------------------------------------------------------*/
+
+footer
+{
+    margin-top: 100px;
+    background-image: url(../Imagenes/fondoFooter.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+}
+#footerContenedor
+{
+    background-color: rgba(0,0,0,0.8); 
+}
+
+#footerLocaliza
+{
+    margin-top: 0px;
+}
+
+#NombreEmail
+{
+    width: 100%;    
+    -webkit-display: inline-flex;
+    display: inline-flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+#FooterNombre, #FooterEmail, #FooterMensaje, #enviar, #copy, #logos, #enviar2, #btverinsertar,
+#cerrarSesion
+{
+    width: 29.8%;
+    min-width: 400px;
+    display: inline-block; 
+    font-family: RalewayRegular;
+    font-size: 1.5em;    /*24x/16px*/
+    color:white;
+    margin-top: 50px;
+    margin-left: 10%;   /*192px/1920px*/ 
+    margin-right: 10%;    /*192px/1920px*/ 
+}
+
+#FooterMensaje
+{
+    width: 80%;    
+}
+
+#FooterNombre label, #FooterEmail label, #FooterMensaje label 
+{
+    margin-left: 1%;   /*20px/1920px*/ 
+    display: block;
+}
+
+#FooterNombre input, #FooterEmail input, #FooterMensaje input
+{
+    width: 100%; 
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,.8); 
+}
+
+#FooterMensaje input
+{
+    height: 200px;
+}
+
+#enviar, #enviar2, #btverinsertar, #cerrarSesion
+{
+   width: 12%;    /*230px/1920px*/
+   min-width: 200px;
+   height: 60px;
+   display: block;  
+   background-color: red;
+}
+
+#enviar2{
+    margin: auto;
+}
+
+#ver
+{    
+    text-decoration: none;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#copyLogos
+{
+     width: 80%;
+     padding-bottom: 50px; 
+    -webkit-display: inline-flex;
+    display: inline-flex;
+    -webkit-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-left: 10%;   /*192px/1920px*/ 
+    margin-right: 10%;    /*192px/1920px*/ 
+}
+
+#copy
+{
+    min-width: 480px;
+    font-size: 1.25em;        /*20px/16px*/
+    padding-top: 15px; 
+    margin-left: 0px;   
+    margin-right: 0px;   
+}
+
+#logos
+{
+    min-width: 470px;
+    font-family: SocialIcons;
+    font-size: 3.125em;    /*50px/16px*/
+    color: rgba( 255,255,255,0.6);
+    letter-spacing: 40px;   
+    margin-left: 0px;   
+    margin-right: 0px;
+}
+
+#error
+{
+    width: 100%;
+}
+
+#formCentrar
+{
+    width: 100%;
+    margin: auto;
+}
+
+#carta table
+{
+    margin: auto;
+    margin-top: 50px;
+    max-width: 80%;
+    color: white;
+    border: 1px solid white;
+    
+    font-size: 1.2em;
+}
+
+#carta table tr, #carta table th, #carta table td
+{
+    text-align: center;
+    font-size: 1.2em;
+    border: 1px solid white;
+    overflow: hidden;
+    min-width: 200px;
+    max-width: 300px;
+    
+}
+
+/*----------------------------------------------1366X768--------------------------------------------------------*/
+
+@media screen and (max-width: 1354px) and (min-width: 1025px)
+{
+    /*---------------------------------------------------Index-----------------------------------------------------------------------------*/
+   #inicio ,header
+    {
+        height: 720px;
+    }
+    
+    #historiaTexto p
+    {
+       font-size: 0.96em;    /*15.36/16px*/   
+    }
+ 
+    /*---------------------------------------------------Carta-----------------------------------------------------------------------------*/
+      
+    .bandaNegraFrase
+    {        
+        line-height: 1.5em;
+        font-size: 1.5em;    /*24px/16px*/  
+    }
+    
+    .cartaBandaBlanca p.cita
+    {
+        margin-top: 10px;  
+    }
+    
+    /*---------------------------------------------------Localízanos-----------------------------------------------------------------------------*/
+    
+    #numeroTelefono, #correo
+    {    
+        font-size: 1.5em;    /*24px/16px*/  
+    }
+
+/*---------------------------------------------------Footer-----------------------------------------------------------------------------*/
+   #FooterNombre, #FooterEmail
+    {
+        width: 30%;
+        min-width: 200px;
+    }
+    
+    #logos
+    {
+        min-width: 260px;
+        letter-spacing: 10px;  
+    }
+}
+
+
+/*----------------------------------------------1024x768--------------------------------------------------------*/
+
+@media screen and (max-width: 1024px) and (min-width: 855px)
+{
+    /*---------------------------------------------------Index-----------------------------------------------------------------------------*/
+   #inicio, header
+    {
+        height: 768px;
+    }
+    
+    #historiaTexto p
+    {
+       font-size: 0.9em;    /*15.36/16px*/   
+    }
+ 
+    /*---------------------------------------------------Carta-----------------------------------------------------------------------------*/
+    .bandaNegraFrase
+    {        
+        line-height: 1.5em;
+        font-size: 1.5em;    /*24px/16px*/  
+    }
+    
+    .menuDerecha
+    {     
+        margin-right: 2%;
+    }
+    
+    .cartaBandaBlanca p.cita
+    {
+        margin-top: 10px;  
+    }
+    
+    /*---------------------------------------------------Localízanos-----------------------------------------------------------------------------*/
+    
+    #numeroTelefono, #correo
+    {    
+        font-size: 1.5em;    /*24px/16px*/  
+    }
+    
+/*---------------------------------------------------Footer-----------------------------------------------------------------------------*/
+   #FooterNombre, #FooterEmail
+    {
+        width: 30%;
+        min-width: 200px;
+    }
+    
+    #logos
+    {
+        min-width: 400px;
+        letter-spacing: 30px;  
+        font-size: 3em;    /*50px/16px*/
+    }
+    
+    #copy
+    {
+        min-width: 400px;
+        font-size: 1em;        /*20px/16px*/   
+    }    
+}
+
+
+/*----------------------------------------------Adaptacion a Móvil--------------------------------------------------------*/
+
+/*----------------------------------------------854pxx736px--------------------------------------------------------*/
+
+@media screen and (max-width: 854px)
+{
+    
+    /*---------------------------------------------------Index-----------------------------------------------------------------------------*/
+    
+   #inicio, header
+    {
+        height: 736x;
+    }
+    
+    #inicio, #contenido, footer, header
+    {
+        min-width: 320px;
+    }
+    
+    #inicio, #contenido, #headerBandaNegra
+    {
+        -webkit-display: flex;
+        display: flex;
+        -webkitjustify-content: center;
+        justify-content: center;
+    }   
+    
+    #menu, #bandaBlancaPlato, #bandaBlancaChef, .cartaBandaBlanca, #headerBandaNegra, #tarjetaVisita
+    {
+        width: 60%;
+        margin-left: 0px;
+        margin: auto;
+    }
+    
+    .titulo
+    {        
+        font-size: 2.25em;    /*36/16px*/
+    }
+    
+    #historia
+    {
+        width: 100%;
+        height: 900px;
+        margin-left: 10%;
+        margin-right: 10%;
+        order: 1;
+    }
+    
+     #historiaTexto 
+    {
+        margin-top: 50px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    #bandaBlancaPlato
+    {
+        width: 80%;
+        height: 400px;
+        margin-top: 0px;
+        order: 2;
+    }
+    
+    #fotoPlato
+    {
+        width: 100%;
+        margin: auto;
+        height: 400px;
+        background-image: url("../Imagenes/BandaBlancaPlatoMovil.png");
+    }
+    
+    #nuestraChef
+    {
+        width: 80%;
+        min-width: 320px;
+        height: 550px;
+        order: 3;
+    }
+    
+    #fotoChef
+    {
+        height: 400px;
+    }
+    
+    #descripcionChef
+    {
+        margin-top: 100px;
+    }
+    
+    #bandaBlancaChef
+    {
+        width: 80%;
+        height: 500px;
+        order: 4;
+    }    
+    
+    #historiaTexto p
+    {
+       font-size: 0.9em;    /*15.36/16px*/   
+    }
+    
+    #fotoPlato
+    {
+       margin-top: 0px;
+    }
+    
+    #lineaHistoria
+    {
+        position: relative;
+        bottom: 2200px;
+    }
+    
+    #lineaChef
+    {
+        position: relative;
+        bottom: 900px;
+    }
+ 
+    /*---------------------------------------------------Carta-----------------------------------------------------------------------------*/
+    
+    
+    #headerBandaNegra
+    {
+        position: relative;
+        left: 0px;
+        margin: auto;
+    }
+    
+    .bandaNegraFrase
+    {        
+        line-height: 1.5em;
+        font-size: 1.5em;    /*24px/16px*/  
+    }
+    
+    nav
+    {
+        position: relative;
+        top: 250px;
+        -webkit-justify-content: center;
+        justify-content: center;
+    }
+    
+    .menuDerecha
+    {  
+        width: 60%;  
+        margin: auto;
+        -webkit-align-items: center;
+        align-items: center;
+       -webkit-justify-content: space-around;
+        justify-content:space-around; 
+    }
+    
+    #carta
+    {    
+        -webkit-display: inline-flex;
+        display: inline-flex;
+        -webkit-flex-wrap: colum;
+        flex-wrap:  colum;
+    }
+    
+    .cartaBandaBlanca p.cita
+    {
+        margin-top: 10px;  
+    }
+    
+    .cartaBandaBlanca, #bandaCrepe2, #bandaCrepe4, #bandaCrepe6
+    {
+        margin-top: 50px;
+        height: 400px;
+    }
+    
+    .cartaDerecha
+    {
+        width: 80%;
+        margin: auto;
+    }   
+    
+    .datosCrepe, #datosCrepe2, #datosCrepe3 , #datosCrepe4 , #datosCrepe5 , #datosCrepe6
+    {
+        margin-top: 50px;
+    }
+    
+    #tituloFoto1
+    {
+      order: 1;
+    }
+    
+    #bandaCrepe1
+    {
+        order: 2;
+    }
+    
+    #tituloFoto2
+    {
+      order: 3;
+    }
+    
+    #bandaCrepe2
+    {
+        order: 4;
+    }
+    
+     #tituloFoto3
+    {
+      order: 5;
+    }
+    
+    #bandaCrepe3
+    {
+        order: 6;
+    }
+    
+     #tituloFoto4
+    {
+      order: 7;
+    }
+    
+    #bandaCrepe4
+    {
+        order: 8;
+    }
+    
+     #tituloFoto5
+    {
+      order: 9;
+    }
+    
+    #bandaCrepe5
+    {
+        order: 10;
+    }
+    
+     #tituloFoto6
+    {
+      order: 11;
+    }
+    
+    #bandaCrepe6
+    {
+        order: 12;
+    }    
+    
+    #lineaCarne
+    {
+        position: relative;
+        bottom: 5538px;
+    }
+
+    #lineaMar
+    {
+        position: relative;
+        bottom: 3647px;
+    }
+
+    #lineaDulce
+    {
+        position: relative;
+        bottom: 1756px;
+    }
+    
+    /*---------------------------------------------------Localízanos-----------------------------------------------------------------------------*/
+    
+    #numeroTelefono, #correo
+    {    
+        font-size: 1.7em;     
+    }
+    
+    #localizanos
+    {
+        position: relative;
+        bottom: 0px;
+    }
+    
+    #localizanos .titulo
+    {
+        margin: auto;
+    }
+    
+    #mapa iframe
+    {
+        height: 400px;
+    }
+    
+/*---------------------------------------------------Footer-----------------------------------------------------------------------------*/
+   
+    #footerLocaliza
+    {
+        margin-top: 100px;
+    }
+    
+    #FooterNombre, #FooterEmail, #FooterMensaje
+    {
+        width: 80%;
+        min-width: 200px;
+    }
+    
+    #logos
+    {
+        width: 80%;
+        min-width: 280px;
+        letter-spacing: 10px;  
+        font-size: 3em;    /*50px/16px*/
+    }
+    
+    #copy
+    {
+        width: 80%;
+        min-width: 300px;
+        font-size: 1em;        /*20px/16px*/   
+    }    
+}
+
+@media screen and (max-width: 555px)
+{
+        #inicio, header
+        {
+             height: 640px;
+        }
+    
+        #menu li a
+        {
+            font-size: 2.5em;
+        }
+    
+       #historia 
+        {
+             height: 1000px;
+        }
+    
+       #bandaBlancaChef
+        {
+             height: 550px;
+        }
+    
+       #lineaHistoria
+        {
+            position: relative;
+            bottom: 2350px;
+        }
+    
+        #lineaChef
+        {
+            position: relative;
+            bottom: 960px;
+        }
+    
+         .menuDerecha a
+        {  
+          font-size: 2.5em;
+        }
+    
+        .bandaNegraFrase 
+        {
+            position: relative;
+            top: 50px;
+            height: 200px;
+        }  
+    
+         #numeroTelefono, #correo
+        {   
+            font-size: 1.5em;    /*24px/16px*/  
+        }
+       
+}
+
+@media screen and (max-width: 470px)
+{
+       #historia 
+        {
+             height: 1100px;
+        } 
+    
+     #lineaHistoria
+        {
+            position: relative;
+            bottom: 2450px;
+        }   
+     
+        .menuDerecha
+        {
+            width: 70%;
+            justify-content:  space-between;
+        }
+    
+     .menuDerecha a
+        {  
+          font-size: 2.5em;
+            
+        }
+       #bandaBlancaChef
+        {
+             height: 580px;
+        }
+}
+
+@media screen and (max-width: 420px)
+{
+       #historia 
+        {
+             height: 1200px;
+        }  
+    
+     #lineaHistoria
+        {
+            position: relative;
+            bottom: 2550px;
+        }   
+    .menuDerecha
+        {
+            width: 80%;
+            justify-content: space-around;
+        } 
+}
+
+@media screen and (max-width: 370px)
+{
+       #historia 
+        {
+             height: 1300px;
+        }  
+    
+     #lineaHistoria
+        {
+            position: relative;
+            bottom: 2650px;
+        }
+    
+      .menuDerecha
+        {
+            width: 90%;
+        }    
+}

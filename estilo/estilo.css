@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: none;
+    color: #959595;
+}
+table tr:nth-child(odd) td{
+    background: #ccc;
+}
+table tr:nth-child(even) td{
+    background: #ddd;
+}
+table tr td, table tr th{
+    padding: 2px;
+}
